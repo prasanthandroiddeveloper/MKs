@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/two"
+    android:layout_height="match_parent"
+    tools:context="com.example.badari.mks.MainActivity">
+
+    <!--android:background="@drawable/two"-->
+
+
+    <EditText
+        android:id="@+id/usr"
+        android:layout_width="650dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/psd"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="54dp"
+        android:hint="User Name"
+        android:textColor="#FA8072"
+        android:textColorHint="#FA8072" />
+    <!--android:text="Name" -->
+
+    <EditText
+        android:id="@+id/psd"
+        android:layout_width="650dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="91dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#00FFFF"
+        android:textColorHint="#00ffff" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="114dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="login"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
