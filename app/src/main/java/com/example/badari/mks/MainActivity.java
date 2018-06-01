@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                /* public void open( View v){
-                if(usr.getText().toString().equals("Admin") &&(psd.getText().toString().equals("Admin123") &&usr.length()>1&&psd.length()>1)) {
+                if(usr.getText().toString().ccccequals("Admin") &&(psd.getText().toString().equals("Admin123") &&usr.length()>1&&psd.length()>1)) {
 
 
                     Toast.makeText(getApplicationContext(),"Login Successful",Toast.LENGTH_LONG).show();
