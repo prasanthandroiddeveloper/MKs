@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 if(usr.getText().toString().ccccequals("Admin") &&(psd.getText().toString().equals("Admin123") &&usr.length()>1&&psd.length()>1)) {
 
 
-                    Toast.makeText(getApplicationContext(),"Logins Successfulll github",Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(),"Logins Successfulll github commited",Toast.LENGTH_LONG).show();
                     Intent myintent=new Intent(MainActivity.this,NavigatorActivity.class);
                     startActivity(myintent);
 
