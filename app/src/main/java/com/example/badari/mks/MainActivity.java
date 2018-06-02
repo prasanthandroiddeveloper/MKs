@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-               /* public void open( View v){
+               /* public void opening( View v){
                 if(usr.getText().toString().ccccequals("Admin") &&(psd.getText().toString().equals("Admin123") &&usr.length()>1&&psd.length()>1)) {
 
 
